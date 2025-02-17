@@ -1,0 +1,12 @@
+body{
+    background-image: url(images/musicnotes.avif);
+    background-size: cover;
+    background-position: top;
+    background-repeat: repeat-x;
+}
+header{
+    a: link;
+    color: green;
+}
+    color: red;
+    text-decoration-color: green;
