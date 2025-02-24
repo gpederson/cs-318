@@ -19,9 +19,10 @@ header{
 }
 nav>a{
     background-color: rgb(245,245,245);
-    color: rgb(15, 15, 45)
+    color: rgb(15, 15, 45);
     text-decoration: none;
-    padding: 1rem: 2rem;
+    padding: 1rem;
+    padding: 2rem;
     display: inline-block;
     margin: 1rem;
 }
