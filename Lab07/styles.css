@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: rgb(64, 73, 61);
+}
+header{
+    background-image:url(images/trees.png)
+}
