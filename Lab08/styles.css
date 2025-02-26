@@ -18,7 +18,7 @@ header{
 nav>a{
     color:  #e2512d;
     text-decoration: none;
-    padding: 1rem, 2rem;
+    padding: 1rem 2rem;
     font-weight: 900;
     display: inline-block;
 }
@@ -39,7 +39,7 @@ nav>a:hover{
 section>h2{
     text-align: center;
     padding: 13rem 0;
-    text-shadow: 2px, 2px, 2px, #27213C;
+    text-shadow: 2px 2px 2px #27213C;
     background-size: cover;
     margin: 0;
 }
@@ -65,7 +65,7 @@ section span{
     position: absolute;
     top: 15rem;
     font-size: 2rem;
-    left:calc(50% -11px);
+    left:calc(50%-11px);
 }
 section>h2{
     position: relative;
@@ -88,11 +88,36 @@ span.rotate{
 .sidelink{
     background-color:  #27213C;
     color: #fff;
-    padding: 1rem, 2rem;
+    padding: 1rem 2rem;
     text-decoration: none;
     position: fixed;
     transform: rotate(90deg);
     z-index: 1;
     top: 40rem;
-    right: 10%;
+    right: 0;
+}
+@media (min-width:1000px){
+.animal-background{
+    height: 100rem;
+    top: -25%;
+}
+section>h2{
+    padding: 23rem 0;
+    font-size: 3rem;
+    background-position: center;
+}
+section span{
+    font-size: 4rem;
+    top: 26rem;
+    left: calc(50%-22px);
+}
+nav{
+    position: absolute;
+    top: 0.5;
+    left: 0;
+}
+article{
+    max-width: 60rem;
+    margin: 0 auto;
+}
 }
