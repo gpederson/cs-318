@@ -67,7 +67,7 @@ input[type=Reset], [type=Submit]{
     font-size: 1.5rem;
     padding: 1rem;
     border-radius: 2rem;
-    border: 3px solid, yellowgreen;
+    border: 3px solid, yellowgreen;/*Delete comma*/
     margin-top: 1rem;
     margin-right: 2rem;
     margin-bottom: 0;
