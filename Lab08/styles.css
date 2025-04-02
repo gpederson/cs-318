@@ -12,7 +12,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 0;
+    z-index: 0;/*You want this to be 1. That will push the header infront of the invisible first section. Right now you cannot click on the nav links because the header is behind the section*/
     
 }
 nav>a{
@@ -65,10 +65,13 @@ section span{
     position: absolute;
     top: 15rem;
     font-size: 2rem;
-    left:calc(50%-11px);
+    left:calc(50%-11px);/*Need a space on both sides of the minus sign.*/
 }
 section>h2{
     position: relative;
+    /* Add
+    border-bottom: 2rem solid #e2512d; 
+    */
 }
 .accordion{
     cursor: pointer;
@@ -109,11 +112,11 @@ section>h2{
 section span{
     font-size: 4rem;
     top: 26rem;
-    left: calc(50%-22px);
+    left: calc(50%-22px);/*Need a space on both sides of the minus sign*/
 }
 nav{
     position: absolute;
-    top: 0.5;
+    top: 0.5;/*Missing the unit here. Probably rem*/
     left: 0;
 }
 article{
