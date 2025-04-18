@@ -3,3 +3,14 @@ body{
     font-family: agbalumo;
     color: #C0CCC2;   
 } 
+p{
+    color: #A9A8AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #C0CCC2;
+    padding: 1rem;
+}
+a:hover{
+    color: #EBDFCC
+}
