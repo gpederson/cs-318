@@ -10,7 +10,22 @@ p{
 a{
     color: #C0CCC2;
     padding: 1rem;
+    
 }
 a:hover{
     color: #EBDFCC
+}
+main{
+    width:50%;
+}
+h1{
+    margin:2rem;
+}
+@media (min-width: 1200px){
+    main{
+        width: 70%;
+        }
+    h1{
+        margin:1rem;
+    }
 }
