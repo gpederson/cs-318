@@ -43,6 +43,7 @@ section>h2{
     text-shadow: 2px 2px 2px #27213C;
     background-size: cover;
     margin: 0;
+    /*missing border:em solid #e2512d*/
 }
 section{
     background-color:  #A33B20;
@@ -66,7 +67,7 @@ section span{
     position: absolute;
     top: 15rem;
     font-size: 2rem;
-    left:calc(50%-11px);
+    left:calc(50%-11px);/*Missing a space on both sides on the minus sign*/
 }
 section>h2{
     position: relative;
@@ -110,7 +111,7 @@ section>h2{
 section span{
     font-size: 4rem;
     top: 26rem;
-    left: calc(50%-22px);
+    left: calc(50%-22px);/*Missing a space on both sides of the minus sign*/
 }
 nav{
     position: absolute;
