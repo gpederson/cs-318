@@ -90,7 +90,7 @@ header a:hover{
     font-weight: 900;  
 }
 .planet{
-    animation: rise 10s; ease-in 1 forwards
+    animation: rise 10s ease-in 1 forwards;
 }
 @keyframes rise{
     from{
@@ -111,7 +111,7 @@ header a:hover{
     animation-iteration-count:infinite;
     animation-direction:alternate;
 }
-@keyframes animation-name:rotate{
+@keyframes rotate{
     from{
         transform:rotate(-5deg)
     }
@@ -125,10 +125,10 @@ header a:hover{
     animation-duration:3s;
     animation-timing-function: linear;
     animation-delay:3s;
-    animation-iteration-count:3s;
+    animation-iteration-count:3s;/*infinite not 3s*/
     animation-direction: alternate;   
 }
-@keyframes animation-name:alternate{
+@keyframes alternate{
     from{
         left: 0px;
     }
@@ -155,7 +155,7 @@ h2{
 }
 .robots{
     display:grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;/*remove the commas. It is breaking the columns*/
     gap: 2rem;
 }
 .robots figure{
@@ -168,7 +168,7 @@ iframe{
 }
 .grid{
     display: grid;
-    grid-template-columns: 1fr, 1rem, 1fr;
+    grid-template-columns: 1fr, 1rem, 1fr;/*remove the commas. It is breaking the columns*/
 }
 .grid hr{
     grid-area: 1/2/10/3;
@@ -182,7 +182,7 @@ iframe{
 }
 .maps{
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr;/*remove the commas. It is breaking the columns*/
     gap: 2rem;
 }
 figcaption,h3{
@@ -190,8 +190,10 @@ figcaption,h3{
 }
 .figcaption:hover, h3:hover{
     color: #d15f44;
-    @media(min-width:600px)
+    
 }
+@media(min-width:600px)/*Add { */
 section{
     padding: 1rem, 5rem;
 }
+/*Add } */
