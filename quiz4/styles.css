@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: coral;
+    overflow: hidden;
+}
+.dot{
+    background-color: white;
+    position: absolute;
+    top:50%;
+    left:0;
+    height:5rem;
+    width:5rem;
+    border-radius:2.5rem;
+    animation-name:move;
+    animation-duration:5s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes dot{
+    from{
+        left:0px;
+        transform:rotateZ(0deg);
+    }
+    50%{
+        left:50px;
+    }
+    to{
+        left:100px;
+        transform:rotateZ(90deg);
+    }
+}
